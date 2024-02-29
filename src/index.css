@@ -1,8 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+@font-face {
+    font-family: 'curly';
+    src: url('public/Fonts/CurlyStars.ttf');
 }
