@@ -4,6 +4,7 @@ import About from "./components/Sections/About";
 import Education from './components/Sections/Education';
 import Homepage from './components/Sections/Homepage';
 
+
 function App() {
 
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path="/About" element={<About/>}></Route>
       <Route path="/Education" element={<Education/>}></Route>
     </Routes>
+   
 </BrowserRouter>
     
     </>
