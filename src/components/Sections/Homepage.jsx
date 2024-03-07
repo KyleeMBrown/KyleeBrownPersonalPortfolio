@@ -74,9 +74,9 @@ const carousel = useRef()
     </div>
     <div class="flex items-center h-[41%] mt-[-42px]  ">
       <CarouselComponent>
-        <a href="https://www.linkedin.com/in/kylee-brown-7167b9274/" target='_blank' ><div class="h-full w-[28%] snap-center bg-[url('public/Images/default-share.png')] bg-cover shadow-2xl hover:cursor-pointer hover:border-[3px] border-blue-400 bg-center mr-2 ml-2 inline-block rounded-[15px] bg-orange-300"></div></a>
-        <a href="https://snhu.joinhandshake.com/stu/users/44118380" target='_blank'><div class="h-full w-[28%] snap-center bg-[url('public/Images/handshakeLogo.webp')] bg-cover shadow-2xl hover:cursor-pointer hover:border-[3px]  bg-center mr-2 ml-2 inline-block rounded-[15px] bg-orange-300"></div></a>
-        <a href="https://github.com/KyleeMBrown" target='_blank'><div class="h-full w-[28%] snap-center bg-[url('public/Images/github-logo.png')] bg-cover bg-center mr-2 ml-2 inline-block rounded-[15px] shadow-2xl hover:cursor-pointer hover:border-[3px] border-gray-500  bg-orange-300"></div></a>
+        <a href="https://www.linkedin.com/in/kylee-brown-7167b9274/" target='_blank' ><div class="h-full w-[28%] snap-center bg-[url('public/Images/default-share.png')] bg-cover shadow-2xl hover:cursor-pointer hover:border-[3px] border-blue-400 bg-center mr-2 ml-2 inline-block rounded-[15px] "></div></a>
+        <a href="https://snhu.joinhandshake.com/stu/users/44118380" target='_blank'><div class="h-full w-[28%] snap-center bg-[url('public/Images/handshakeLogo.webp')] bg-cover shadow-2xl hover:cursor-pointer hover:border-[3px]  bg-center mr-2 ml-2 inline-block rounded-[15px] "></div></a>
+        <a href="https://github.com/KyleeMBrown" target='_blank'><div class="h-full w-[28%] snap-center bg-[url('public/Images/github-logo.png')] bg-cover bg-center mr-2 ml-2 inline-block rounded-[15px] shadow-2xl hover:cursor-pointer hover:border-[3px] border-gray-500  "></div></a>
         <div class="h-full w-[28%] snap-center mr-2 ml-2 inline-block rounded-[15px] shadow-2xl hover:cursor-pointer hover:border-[3px]  ">
 
         </div>
