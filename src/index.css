@@ -7,6 +7,12 @@
     src: url('public/Fonts/CurlyStars.ttf');
 }
 
+@font-face {
+    font-family: 'sweet';
+    src: url('public/Fonts/Lucy Said Ok Personal Use.ttf');
+}
+
+
 .active{
     color:rgb(250, 171, 201);
     text-decoration: overline;

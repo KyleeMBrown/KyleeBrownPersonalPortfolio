@@ -6,8 +6,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        curly: ["curly", 'sans-serif']
-      
+        curly: ["curly", 'sans-serif'],
+        sweet: ["sweet", 'sans-serif']
       }
     },
   },
