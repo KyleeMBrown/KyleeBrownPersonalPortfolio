@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import About from "./components/Sections/About";
 import Education from './components/Sections/Education';
 import Homepage from './components/Sections/Homepage';
+import Projects from './components/Sections/Projects';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Route path="/" element={<Homepage/>}></Route>
       <Route path="/About" element={<About/>}></Route>
       <Route path="/Education" element={<Education/>}></Route>
+      <Route path="/Projects" element={<Projects/>}></Route>
     </Routes>
    
 </BrowserRouter>

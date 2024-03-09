@@ -12,7 +12,15 @@
     src: url('public/Fonts/Lucy Said Ok Personal Use.ttf');
 }
 
+@font-face {
+    font-family: 'varsity';
+    src: url('public/Fonts/varsity_regular.ttf');
+}
 
+@font-face {
+    font-family: 'organical';
+    src: url('public/Fonts/ORGANICAL PERSONAL USE.ttf');
+}
 .active{
     color:rgb(250, 171, 201);
     text-decoration: overline;
@@ -22,6 +30,22 @@
 .no-scrollbar::-webkit-scrollbar {
     display: none;
 }
+
+.color-scrollbar::-webkit-scrollbar {
+    background-color: rgba(0, 0, 0, 0.412);
+    width: 6px;
+    scrollbar-arrow-color: white;
+
+}
+.color-scrollbar::-webkit-scrollbar-thumb {
+    background-color: white;
+    height:2px
+}
+.color-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: pink;
+    
+}
+
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .no-scrollbar {

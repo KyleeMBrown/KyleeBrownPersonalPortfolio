@@ -11,8 +11,9 @@ function About() {
       <div id="About" class=" w-full ">
         <MoviePageLayout 
         title='Welcome to the About Page!'
-
-        paragraph = {[      <div class="text-center pb-2  text-white bg-green- "> <div class="backdrop-blur-lg">Hi! My name is Kylee Brown I am a first generation student majoring in Computer Science.
+        ttlSize='75px'
+        ttlFont='sweet'
+        paragraph = {[      <div class="text-center pb-2  text-white bg-green- "> <div class="backdrop-blur-lg">Hi! My name is Kylee Brown, and I am a first generation student majoring in Computer Science.
         I was born in Haiti and was adopted by a loving family in Illinois. When I am passionate about something in my life I put my everything into  it nothing less.
         I built and designed this portfolio website in the likes of a streaming platform to showcase my UI skills while also integrating a longtime hobbie of mine, binge watching.
          I'm excited to see how much I can grow and where my career takes me </div><br />Thanks for stopping by! <br />~Kylee </div>]}

@@ -7,7 +7,9 @@ export default {
     extend: {
       fontFamily: {
         curly: ["curly", 'sans-serif'],
-        sweet: ["sweet", 'sans-serif']
+        sweet: ["sweet", 'sans-serif'],
+        varsity: ["varsity", 'sans-serif'],
+        organical: ["organical", 'sans-serif']
       }
     },
   },
