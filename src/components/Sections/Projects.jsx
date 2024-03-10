@@ -6,7 +6,7 @@ function Projects() {
   return (
     <div  class="w-full ">
     <MoviePageLayout
-    bgUrl="public/Images/pinkCheck.jpeg"
+    bgUrl="/Images/pinkCheck.jpeg"
 
     title="Welcome to the Projects Page!"
     ttlSize='50px'
@@ -26,17 +26,17 @@ function Projects() {
 
     rowOne={[
           <div class="w-[400px]" >
-                <a href="https://github.com/KyleeMBrown/PersonalPortfolio" target="_blank"><motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('public/Images/PersonalPortScreenshot.png')] bg-white bg-cover bg-center h-[210px] rounded-xl hover:cursor-pointer hover:drop-shadow-2xl "></motion.div></a>
+                <a href="https://github.com/KyleeMBrown/PersonalPortfolio" target="_blank"><motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('/Images/PersonalPortScreenshot.png')] bg-white bg-cover bg-center h-[210px] rounded-xl hover:cursor-pointer hover:drop-shadow-2xl "></motion.div></a>
                 <div class="text-white ">
                     <h1 class= "ml-1 mt-2 pb-2 text-left text">Personal Portfolio</h1>
                     <p class='  p-2 leading-[22px] flex text-[14px] overflow-y-scroll h-[100px] color-scrollbar bg-black bg-opacity-[35%] hover:bg-opacity-[45%] hover:scale-[102%]  transition-all rounded-md text-left flex-wrap break-words  '>
                     <h1 class="ml-1 mb-1 ">Coding Languages:</h1>
                         <div class="w-full flex items-center justify-evenly mb-1 mt-1">
-                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-html-48.png" alt="HTML" class="inline" />
-                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-javascript-48.png" alt="JS" class="inline" />
-                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-tailwind-css-48.png" alt="TW CSS" class="inline" />
-                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-framer-motion.webp" alt="Framer Motion" class="inline w-[48px]" />
-                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-react-24.png" alt="React" class="inline w-[48px]" />
+                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-html-48.png" alt="HTML" class="inline" />
+                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-javascript-48.png" alt="JS" class="inline" />
+                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-tailwind-css-48.png" alt="TW CSS" class="inline" />
+                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-framer-motion.webp" alt="Framer Motion" class="inline w-[48px]" />
+                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-react-24.png" alt="React" class="inline w-[48px]" />
                            
                         </div>
                         <h1 class="ml-1 w-full mb-1">Project Summary:</h1> 
@@ -51,17 +51,17 @@ function Projects() {
                 
           </div>,
              <div class="w-[400px]" >
-             <a href="https://github.com/KyleeMBrown/USOpioidDeathRateAnalysis" target="_blank"><motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('public/Images/PolynomialRegPlot1.png')] bg-black bg-contain bg-no-repeat  bg-top h-[210px] rounded-xl hover:cursor-pointer hover:drop-shadow-2xl "></motion.div></a>
+             <a href="https://github.com/KyleeMBrown/USOpioidDeathRateAnalysis" target="_blank"><motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('/Images/PolynomialRegPlot1.png')] bg-black bg-contain bg-no-repeat  bg-top h-[210px] rounded-xl hover:cursor-pointer hover:drop-shadow-2xl "></motion.div></a>
              <div class="text-white ">
                  <h1 class= "ml-1 mt-2 pb-2 text-left text">Pyhton Regression models of US Opioid Death Rates</h1>
                  <p class='  p-2 leading-[22px] flex text-[14px] overflow-y-scroll h-[100px] color-scrollbar bg-black bg-opacity-[35%] hover:bg-opacity-[45%] hover:scale-[102%]  transition-all rounded-md text-left flex-wrap break-words  '>
                  <h1 class="ml-1 mb-1 ">Coding Languages & Libraries:</h1>
                      <div class="w-full flex items-center justify-evenly mb-1 mt-1">
-                         <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-python-94 (1).png" alt="Python" class="inline w-[45px]" />
-                         <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-pandas-48.png" alt="Python Pandas" class="inline" />
-                         <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-numpy-48.png" alt="Numpy" class="inline" />
-                         <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-Matplotlib-logo.svg.png" alt="MatplotLib" class="inline w-[45px]" />
-                         <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/Scikit-learn.png" alt="Scikit-learn" class="inline w-[45px]" />
+                         <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-python-94 (1).png" alt="Python" class="inline w-[45px]" />
+                         <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-pandas-48.png" alt="Python Pandas" class="inline" />
+                         <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-numpy-48.png" alt="Numpy" class="inline" />
+                         <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-Matplotlib-logo.svg.png" alt="MatplotLib" class="inline w-[45px]" />
+                         <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/Scikit-learn.png" alt="Scikit-learn" class="inline w-[45px]" />
                      </div>
                      <h1 class="ml-1 w-full mb-1">Project Summary:</h1> 
                      <p class="indent-3 mt-1">
@@ -76,17 +76,17 @@ function Projects() {
              
               </div>,
               <div class="w-[400px]" >
-              <a href="https://github.com/TechFataleFreelance/KB-s-Kustomz" target="_blank"><motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('public/Images/KBsKustomz.png')] bg-black bg-contain bg-no-repeat  bg-top h-[210px] rounded-xl hover:cursor-pointer hover:drop-shadow-2xl "></motion.div></a>
+              <a href="https://github.com/TechFataleFreelance/KB-s-Kustomz" target="_blank"><motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('/Images/KBsKustomz.png')] bg-black bg-contain bg-no-repeat  bg-top h-[210px] rounded-xl hover:cursor-pointer hover:drop-shadow-2xl "></motion.div></a>
               <div class="text-white ">
                   <h1 class= "ml-1 mt-2 pb-2 text-left text">KB's Kustom'z Car Service Website</h1>
                   <p class='  p-2 leading-[22px] flex text-[14px] overflow-y-scroll h-[100px] color-scrollbar bg-black bg-opacity-[35%] hover:bg-opacity-[45%] hover:scale-[102%]  transition-all rounded-md text-left flex-wrap break-words  '>
                   <h1 class="ml-1 mb-1 ">Coding Languages:</h1>
                       <div class="w-full flex items-center justify-evenly mb-1 mt-1">
-                      <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-html-48.png" alt="HTML" class="inline" />
-                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-javascript-48.png" alt="JS" class="inline" />
-                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-tailwind-css-48.png" alt="TW CSS" class="inline" />
-                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-framer-motion.webp" alt="Framer Motion" class="inline w-[48px]" />
-                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-react-24.png" alt="React" class="inline w-[48px]" />
+                      <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-html-48.png" alt="HTML" class="inline" />
+                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-javascript-48.png" alt="JS" class="inline" />
+                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-tailwind-css-48.png" alt="TW CSS" class="inline" />
+                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-framer-motion.webp" alt="Framer Motion" class="inline w-[48px]" />
+                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-react-24.png" alt="React" class="inline w-[48px]" />
                       </div>
                       <h1 class="ml-1 w-full mb-1">Project Summary:</h1> 
                       <p class="indent-3 mt-1">
@@ -105,15 +105,15 @@ function Projects() {
     row2height={'380px'}
     rowTwo={[
         <div class="w-[400px]" >
-        <a href="https://github.com/KyleeMBrown/Todo-List" target="_blank"><motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('public/Images/TodoListProject.png')] bg-black bg-cover bg-top h-[210px] rounded-xl hover:cursor-pointer hover:drop-shadow-2xl "></motion.div></a>
+        <a href="https://github.com/KyleeMBrown/Todo-List" target="_blank"><motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('/Images/TodoListProject.png')] bg-black bg-cover bg-top h-[210px] rounded-xl hover:cursor-pointer hover:drop-shadow-2xl "></motion.div></a>
         <div class="text-white ">
             <h1 class= "ml-1 mt-2 pb-2 text-left text">React To-Do List</h1>
             <p class='  p-2 leading-[22px] flex text-[14px] overflow-y-scroll h-[100px] color-scrollbar bg-black bg-opacity-[35%] hover:bg-opacity-[45%] hover:scale-[102%]  transition-all rounded-md text-left flex-wrap break-words  '>
             <h1 class="ml-1 mb-1 ">Coding Languages:</h1>
                 <div class="w-full flex items-center justify-evenly mb-1 mt-1">
-                <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-html-48.png" alt="HTML" class="inline" />
-                      <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-javascript-48.png" alt="JS" class="inline" />
-                      <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-css-48.png" alt="JS" class="inline" />
+                <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-html-48.png" alt="HTML" class="inline" />
+                      <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-javascript-48.png" alt="JS" class="inline" />
+                      <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-css-48.png" alt="JS" class="inline" />
                      
                 </div>
                 <h1 class="ml-1 w-full mb-1">Project Summary:</h1> 
@@ -130,16 +130,16 @@ function Projects() {
          </div>
         ,
         <div class="w-[400px]" >
-        <a href="https://github.com/KyleeMBrown/Austin-Zickur-PErsonal-Portfolio" target="_blank"><motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('public/Images/AustinZpersonalPort.png')] bg-black bg-cover bg-top h-[210px] rounded-xl hover:cursor-pointer hover:drop-shadow-2xl "></motion.div></a>
+        <a href="https://github.com/KyleeMBrown/Austin-Zickur-PErsonal-Portfolio" target="_blank"><motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('/Images/AustinZpersonalPort.png')] bg-black bg-cover bg-top h-[210px] rounded-xl hover:cursor-pointer hover:drop-shadow-2xl "></motion.div></a>
         <div class="text-white ">
             <h1 class= "ml-1 mt-2 pb-2 text-left text">Personal Portfolio Website for my boyfriend</h1>
             <p class='  p-2 leading-[22px] flex text-[14px] overflow-y-scroll h-[100px] color-scrollbar bg-black bg-opacity-[35%] hover:bg-opacity-[45%] hover:scale-[102%]  transition-all rounded-md text-left flex-wrap break-words  '>
             <h1 class="ml-1 mb-1 ">Coding Languages:</h1>
                 <div class="w-full flex items-center justify-evenly mb-1 mt-1">
-                <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-html-48.png" alt="HTML" class="inline" />
-                      <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-javascript-48.png" alt="JS" class="inline" />
-                      <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-css-48.png" alt="JS" class="inline" />
-                      <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-react-24.png" alt="React" class="inline w-[48px]" />
+                <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-html-48.png" alt="HTML" class="inline" />
+                      <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-javascript-48.png" alt="JS" class="inline" />
+                      <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-css-48.png" alt="JS" class="inline" />
+                      <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-react-24.png" alt="React" class="inline w-[48px]" />
                 </div>
                 <h1 class="ml-1 w-full mb-1">Project Summary:</h1> 
                 <p class="indent-3 mt-1">
@@ -154,16 +154,16 @@ function Projects() {
         
          </div>,
           <div class="w-[400px]" >
-          <a href="https://github.com/KyleeMBrown/Memory-Game" target="_blank"><motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('public/Images/MemGameproje.png')]  bg-cover bg-center  h-[210px] rounded-xl hover:cursor-pointer hover:drop-shadow-2xl "></motion.div></a>
+          <a href="https://github.com/KyleeMBrown/Memory-Game" target="_blank"><motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('/Images/MemGameproje.png')]  bg-cover bg-center  h-[210px] rounded-xl hover:cursor-pointer hover:drop-shadow-2xl "></motion.div></a>
           <div class="text-white ">
               <h1 class= "ml-1 mt-2 pb-2 text-left text">Fully Responsive Memory Game</h1>
               <p class='  p-2 leading-[22px] flex text-[14px] overflow-y-scroll h-[100px] color-scrollbar bg-black bg-opacity-[35%] hover:bg-opacity-[45%] hover:scale-[102%]  transition-all rounded-md text-left flex-wrap break-words  '>
               <h1 class="ml-1 mb-1 ">Coding Languages:</h1>
                   <div class="w-full flex items-center justify-evenly mb-1 mt-1">
-                  <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-html-48.png" alt="HTML" class="inline" />
-                        <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-javascript-48.png" alt="JS" class="inline" />
-                        <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-css-48.png" alt="CSS" class="inline" />
-                        <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-react-24.png" alt="React" class="inline w-[48px]" />
+                  <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-html-48.png" alt="HTML" class="inline" />
+                        <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-javascript-48.png" alt="JS" class="inline" />
+                        <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-css-48.png" alt="CSS" class="inline" />
+                        <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-react-24.png" alt="React" class="inline w-[48px]" />
                   </div>
                   <h1 class="ml-1 w-full mb-1">Project Summary:</h1> 
                   <p class="indent-3 mt-1">
@@ -181,16 +181,16 @@ function Projects() {
     row3height={'380px'}
     rowThree={[
         <div class="w-[400px]" >
-        <a href="https://github.com/KyleeMBrown/Weather-Web-App" target="_blank"><motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('public/Images/weatherappProj.png')]  bg-contain bg-center  h-[210px] rounded-xl hover:cursor-pointer hover:drop-shadow-2xl "></motion.div></a>
+        <a href="https://github.com/KyleeMBrown/Weather-Web-App" target="_blank"><motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('/Images/weatherappProj.png')]  bg-contain bg-center  h-[210px] rounded-xl hover:cursor-pointer hover:drop-shadow-2xl "></motion.div></a>
         <div class="text-white ">
             <h1 class= "ml-1 mt-2 pb-2 text-left text">Responsive Weather App using <span class="text-teal-300"> openweather API</span></h1>
             <p class='  p-2 leading-[22px] flex text-[14px] overflow-y-scroll h-[100px] color-scrollbar bg-black bg-opacity-[35%] hover:bg-opacity-[45%] hover:scale-[102%]  transition-all rounded-md text-left flex-wrap break-words  '>
             <h1 class="ml-1 mb-1 ">Coding Languages:</h1>
                 <div class="w-full flex items-center justify-evenly mb-1 mt-1">
-                <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-html-48.png" alt="HTML" class="inline" />
-                      <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-javascript-48.png" alt="JS" class="inline" />
-                      <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-css-48.png" alt="CSS" class="inline" />
-                      <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/Openweather.png" alt="OpenWeatherAPI" class="inline  w-[43px]" />
+                <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-html-48.png" alt="HTML" class="inline" />
+                      <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-javascript-48.png" alt="JS" class="inline" />
+                      <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-css-48.png" alt="CSS" class="inline" />
+                      <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/Openweather.png" alt="OpenWeatherAPI" class="inline  w-[43px]" />
                       
                 </div>
                 <h1 class="ml-1 w-full mb-1">Project Summary:</h1> 
@@ -205,15 +205,15 @@ function Projects() {
         
          </div>,
           <div class="w-[400px]" >
-          <a href="https://github.com/KyleeMBrown/Weather-Web-App" target="_blank"><motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('public/Images/BudgetCalcProj.jpeg')]  bg-contain bg-no-repeat bg-center bg-pink-200 bg-opacity-60 h-[210px] rounded-xl hover:cursor-pointer hover:drop-shadow-2xl "></motion.div></a>
+          <a href="https://github.com/KyleeMBrown/Weather-Web-App" target="_blank"><motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('/Images/BudgetCalcProj.jpeg')]  bg-contain bg-no-repeat bg-center bg-pink-200 bg-opacity-60 h-[210px] rounded-xl hover:cursor-pointer hover:drop-shadow-2xl "></motion.div></a>
           <div class="text-white ">
               <h1 class= "ml-1 mt-2 pb-2 text-left text">JavaScript Budget Calculator</h1>
               <p class='  p-2 leading-[22px] flex text-[14px] overflow-y-scroll h-[100px] color-scrollbar bg-black bg-opacity-[35%] hover:bg-opacity-[45%] hover:scale-[102%]  transition-all rounded-md text-left flex-wrap break-words  '>
               <h1 class="ml-1 mb-1 ">Coding Languages:</h1>
                   <div class="w-full flex items-center justify-evenly mb-1 mt-1">
-                  <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-html-48.png" alt="HTML" class="inline" />
-                        <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-javascript-48.png" alt="JS" class="inline" />
-                        <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="public/Icons/icons8-css-48.png" alt="CSS" class="inline" />
+                  <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-html-48.png" alt="HTML" class="inline" />
+                        <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-javascript-48.png" alt="JS" class="inline" />
+                        <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-css-48.png" alt="CSS" class="inline" />
                         
                   </div>
                   <h1 class="ml-1 w-full mb-1">Project Summary:</h1> 

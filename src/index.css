@@ -4,22 +4,22 @@
 
 @font-face {
     font-family: 'curly';
-    src: url('public/Fonts/CurlyStars.ttf');
+    src: url('/Fonts/CurlyStars.ttf');
 }
 
 @font-face {
     font-family: 'sweet';
-    src: url('public/Fonts/Lucy Said Ok Personal Use.ttf');
+    src: url('/Fonts/Lucy Said Ok Personal Use.ttf');
 }
 
 @font-face {
     font-family: 'varsity';
-    src: url('public/Fonts/varsity_regular.ttf');
+    src: url('/Fonts/varsity_regular.ttf');
 }
 
 @font-face {
     font-family: 'organical';
-    src: url('public/Fonts/ORGANICAL PERSONAL USE.ttf');
+    src: url('/Fonts/ORGANICAL PERSONAL USE.ttf');
 }
 .active{
     color:rgb(250, 171, 201);

@@ -7,7 +7,7 @@ function Education() {
     <>
     <div  class="w-full ">
         <MoviePageLayout
-        bgUrl="public/Images/Books.jpeg"
+        bgUrl="/Images/Books.jpeg"
 
         title="Welcome to the Education Page!"
         ttlSize='42px'
@@ -29,7 +29,7 @@ function Education() {
 
         rowOne={[
           <div class="w-[28%]">
-            <motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('public/Images/snhu_logo_new.png')] bg-white bg-cover bg-center h-[210px] rounded-xl hover:cursor-default hover:drop-shadow-2xl "></motion.div>
+            <motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('/Images/snhu_logo_new.png')] bg-white bg-cover bg-center h-[210px] rounded-xl hover:cursor-default hover:drop-shadow-2xl "></motion.div>
             <div class="text-white ">
               <h1 class= "ml-1 mt-2 pb-2 text-left text">Why I chose SNHU Online</h1>
               <p class='  p-1 leading-[22px] flex items-center text-[14px] overflow-y-scroll h-[100px] no-scrollbar bg-black bg-opacity-[35%] hover:bg-opacity-[45%] hover:scale-[102%]  transition-all rounded-md text-center flex-wrap break-words  '>
@@ -39,7 +39,7 @@ function Education() {
             
             </div>,
             <div class="w-[28%]">
-                <motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('public/Images/DreamBig.jpeg')]  bg-cover bg-center h-[210px] rounded-xl hover:cursor-default hover:drop-shadow-2xl "></motion.div>
+                <motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('/Images/DreamBig.jpeg')]  bg-cover bg-center h-[210px] rounded-xl hover:cursor-default hover:drop-shadow-2xl "></motion.div>
                     <div class="text-white ">
                       <h1 class= "ml-1 mt-2 pb-2 text-left text">SNHU Achievements</h1>
                       <p class=' pl-4 p-1 leading-[22px] items-left text-[16px] overflow-y-scroll h-[100px] no-scrollbar bg-black bg-opacity-[35%] hover:bg-opacity-[45%] hover:scale-[102%]  transition-all rounded-md  flex-wrap break-words  '>
