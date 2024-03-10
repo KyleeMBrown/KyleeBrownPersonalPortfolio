@@ -12,7 +12,7 @@ const NavBar = () => {
     const [height, setHeight] = useState('18%');
     const [width, setWidth] = useState('12.5%');
     const [display, setDisplay]= useState('');
-    const [source, setSource]= useState('public/Images/Tom and Jerry.jpeg');
+    const [source, setSource]= useState('/Images/Tom and Jerry.jpeg');
     const [profileDisplay, setProfiledisplay]= useState('none')
 
     const handleHover = () => {
@@ -54,11 +54,11 @@ const NavBar = () => {
         <motion.nav class=" flex items-center p-4 pt-8 justify-between ">
             <ul class=" justify-between items-center w-[60%] flex text-white text-[15px] ">
                 <motion.li whileHover={{ scale:1.05}} transition={{type:"spring"}} class=" font-curly text-[20px] text-center font-light bg-gradient-to-r from-pink-800 to-pink-700 p-[12px] rounded-[28px] shadow-lg ">Aspiring SWE</motion.li>
-            <NavHashLink class="active:text-gray-600" smooth to="/" ><img src="public/Icons/icons8-home-48 (1).png" class="inline-block w-5 mr-2 mb-1" alt="" /><li class="inline-block">Home</li></NavHashLink>  
-              <NavHashLink smooth to="/About" ><img src="public/Icons/icons8-about-48.png" class="inline-block w-5 mr-2 mb-1" alt="" /><li class="inline-block">About</li></NavHashLink>  
-              <NavHashLink smooth to="/Education" ><img src="public/Icons/icons8-education-50.png" class="inline-block w-5 mr-2 mb-1" alt="" /><li class='inline-block'>Education</li></NavHashLink>  
-              <NavHashLink smooth to="/Projects" ><img src="public/Icons/icons8-projects-50.png" class="inline-block w-5 mr-2 mb-1" alt="" /><li class='inline-block' >Projects</li></NavHashLink>
-              <NavHashLink smooth to="/Skills" ><img src="public/Icons/icons8-skills-50.png" class="inline-block w-5 mr-2 mb-1" alt="" /><li class='inline-block' >Skills</li></NavHashLink>
+            <NavHashLink class="active:text-gray-600" smooth to="/" ><img src="/Icons/icons8-home-48 (1).png" class="inline-block w-5 mr-2 mb-1" alt="" /><li class="inline-block">Home</li></NavHashLink>  
+              <NavHashLink smooth to="/About" ><img src="/Icons/icons8-about-48.png" class="inline-block w-5 mr-2 mb-1" alt="" /><li class="inline-block">About</li></NavHashLink>  
+              <NavHashLink smooth to="/Education" ><img src="/Icons/icons8-education-50.png" class="inline-block w-5 mr-2 mb-1" alt="" /><li class='inline-block'>Education</li></NavHashLink>  
+              <NavHashLink smooth to="/Projects" ><img src="/Icons/icons8-projects-50.png" class="inline-block w-5 mr-2 mb-1" alt="" /><li class='inline-block' >Projects</li></NavHashLink>
+              <NavHashLink smooth to="/Skills" ><img src="/Icons/icons8-skills-50.png" class="inline-block w-5 mr-2 mb-1" alt="" /><li class='inline-block' >Skills</li></NavHashLink>
             </ul>
             <div class="flex items-center z-[2]">
                 <h1 class="text-white pr-6">Profile</h1>
