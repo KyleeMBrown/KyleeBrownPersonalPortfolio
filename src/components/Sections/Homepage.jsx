@@ -56,21 +56,24 @@ const carousel = useRef()
     </motion.div>
     <div class=" absolute  w-full  bottom-[33%]">
       <div class=" justify-center text-white flex gap-6">
-     <motion.div whileHover={{ scale:1.08, borderColor: 'white'}} transition={{duration:0.4, type:"ease"}} class=" hover:cursor-pointer w-[255px] hover:border-[5px] rounded-[20px] h-[160px]  flex items-center justify-center bg-pink-800 hover:bg-pink-200 hover:text-pink-800 transition-colors drop-shadow-2xl">
+     <a href="/Resume Kylee Brown (28).pdf" target='_blank'><motion.div whileHover={{ scale:1.08, borderColor: 'white'}} transition={{duration:0.4, type:"ease"}} class=" hover:cursor-pointer w-[255px] hover:border-[5px] rounded-[20px] h-[160px]  flex items-center justify-center bg-pink-800 hover:bg-pink-200 hover:text-pink-800 transition-colors drop-shadow-2xl">
           <h1 class="  text-[25px] ">RESUME</h1>
-        </motion.div>
+        </motion.div></a>
         <NavHashLink path to ='/About'><motion.div whileHover={{ scale:1.08}} transition={{duration:0.4, type:"ease"}} class="hover:cursor-pointer w-[255px] h-[160px] bg-pink-800 hover:bg-pink-300 hover:text-pink-800 hover:border-[5px] rounded-[20px] flex items-center justify-center drop-shadow-2xl">
           <h1 class="  text-[25px] ">ABOUT</h1>
         </motion.div></NavHashLink>
+        <NavHashLink path to ='/Education'>
         <motion.div whileHover={{ scale:1.08}} transition={{duration:0.4, type:"ease"}} class="hover:cursor-pointer w-[255px] hover:border-[5px] rounded-[20px] flex items-center justify-center h-[160px]  bg-pink-800 hover:bg-pink-400 hover:text-pink-800 drop-shadow-2xl">
         <h1 class="  text-[25px] ">EDUCATION</h1>
-        </motion.div>
+        </motion.div></NavHashLink>
+        <NavHashLink path to ='/Projects'>
         <motion.div whileHover={{ scale:1.08}} transition={{duration:0.4, type:"ease"}} class="hover:cursor-pointer w-[255px] h-[160px]  bg-pink-800 hover:bg-pink-500 hover:border-[5px] rounded-[20px] flex items-center justify-center drop-shadow-2xl">
         <h1 class="  text-[25px] ">PROJECTS</h1>
-        </motion.div>
+        </motion.div></NavHashLink>
+        <NavHashLink path to ='/Skills'>
         <motion.div whileHover={{ scale:1.08}} transition={{duration:0.4, type:"ease"}} class="hover:cursor-pointer w-[255px] h-[160px]  bg-pink-800 hover:bg-pink-600  hover:border-[5px] rounded-[20px] flex items-center justify-center drop-shadow-2xl">
-        <h1 class="  text-[25px] ">SKILLS</h1>
-        </motion.div>
+        <h1 class="  text-[25px] ">SKILLS</h1>  
+        </motion.div></NavHashLink>
       </div>
     </div>
     <div class="flex items-center h-[41%] mt-[-42px]  ">
