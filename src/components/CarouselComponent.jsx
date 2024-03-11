@@ -22,7 +22,7 @@ function CarouselComponent(prop) {
       }
 
   return (
-       <div  class="w-full h-full flex ">
+       <div  class="w-full flex ">
             <div onClick={handleLeft} class="flex  items-center  justify-center rotate-180 bg-gradient-to-r from-black hover:to-black hover:cursor-pointer rounded-bl-[20px]  rounded-tl-[20px] w-[3%]">
                 <h1  class="text-[25px]  text-white text-center rotate-[90deg]"> ^ </h1>
             </div>
