@@ -28,7 +28,7 @@ const carousel = useRef()
 
   return (
 <>
-<div class="w-full h-full bg-pink-">
+<div class="w-full h- bg-pink-">
 <motion.div animate={{opacity:[0,1]}} transition={{duration:3, delay:1, repeat:0}} class= "w-full flex justify-center h-[300px] bg-yellow-" > 
     <div onClick={handleLeft} class="flex rotate-180 items-center justify-center  h-[100%]  bg-gradient-to-r from-black hover:to-black hover:cursor-pointer rounded-bl-[20px]  rounded-tl-[20px] w-[3%]">
             <h1  class="text-[25px] text-white text-center rotate-90"> ^ </h1>
@@ -76,12 +76,12 @@ const carousel = useRef()
         </motion.div></NavHashLink>
       </div>
     </div>
-    <div class="flex items-center h-[228px] pb-2 mt-2  ">
+    <div class="flex  pb-1 pt-1  bg-gradient-to-t from-pink-950  to-pink-800 ">
       <CarouselComponent>
-        <a href="https://www.linkedin.com/in/kylee-brown-7167b9274/" target='_blank' ><div class="h-full w-[28%] snap-center bg-[url('/Images/default-share.png')] bg-cover shadow-2xl hover:cursor-pointer hover:border-[3px] border-blue-400 bg-center mr-2 ml-2 inline-block rounded-[15px] "></div></a>
-        <a href="https://snhu.joinhandshake.com/stu/users/44118380" target='_blank'><div class="h-full w-[28%] snap-center bg-[url('/Images/handshakeLogo.webp')] bg-cover shadow-2xl hover:cursor-pointer hover:border-[3px]  bg-center mr-2 ml-2 inline-block rounded-[15px] "></div></a>
-        <a href="https://github.com/KyleeMBrown" target='_blank'><div class="h-full w-[28%] snap-center bg-[url('/Images/github-logo.png')] bg-cover bg-center mr-2 ml-2 inline-block rounded-[15px] shadow-2xl hover:cursor-pointer hover:border-[3px] border-gray-500  "></div></a>
-        <div class="h-full w-[28%] snap-center mr-2 ml-2 inline-block rounded-[15px] shadow-2xl hover:cursor-pointer hover:border-[3px]  ">
+        <a href="https://www.linkedin.com/in/kylee-brown-7167b9274/" target='_blank' ><div class="h-[220px] w-[28%] snap-center bg-[url('/Images/default-share.png')] bg-cover shadow-2xl hover:cursor-pointer hover:border-[3px] border-blue-400 bg-center mr-2 ml-2 inline-block rounded-[15px] "></div></a>
+        <a href="https://snhu.joinhandshake.com/stu/users/44118380" target='_blank'><div class="h-[220px] w-[28%] snap-center bg-[url('/Images/handshakeLogo.webp')] bg-cover shadow-2xl hover:cursor-pointer hover:border-[3px]  bg-center mr-2 ml-2 inline-block rounded-[15px] "></div></a>
+        <a href="https://github.com/KyleeMBrown" target='_blank'><div class="h-[220px] w-[28%] snap-center bg-[url('/Images/github-logo.png')] bg-cover bg-center mr-2 ml-2 inline-block rounded-[15px] shadow-2xl hover:cursor-pointer hover:border-[3px] border-gray-500  "></div></a>
+        <div class="h-[220px] w-[28%] snap-center mr-2 ml-2 inline-block rounded-[15px] shadow-2xl hover:cursor-pointer hover:border-[3px]  ">
 
         </div>
       </CarouselComponent>
