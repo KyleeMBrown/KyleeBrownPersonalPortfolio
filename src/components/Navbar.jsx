@@ -51,7 +51,7 @@ const NavBar = () => {
 
     return(
         <>
-        <motion.nav class=" flex items-center p-4 pt-8 justify-between ">
+        <motion.nav class=" flex items-center p-4 pb-2 pt-6 justify-between ">
             <ul class=" justify-between items-center w-[60%] flex text-white text-[15px] ">
                 <motion.li whileHover={{ scale:1.05}} transition={{type:"spring"}} class=" font-curly text-[20px] text-center font-light bg-gradient-to-r from-pink-800 to-pink-700 p-[12px] rounded-[28px] shadow-lg ">Aspiring SWE</motion.li>
             <NavHashLink class="active:text-gray-600" smooth to="/" ><img src="/Icons/icons8-home-48 (1).png" class="inline-block w-5 mr-2 mb-1" alt="" /><li class="inline-block">Home</li></NavHashLink>  
