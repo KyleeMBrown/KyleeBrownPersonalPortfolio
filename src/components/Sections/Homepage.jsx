@@ -77,7 +77,10 @@ const carousel = useRef()
       </div>
     </div>
       <CarouselComponent>
-    
+              <a href="https://www.linkedin.com/in/kylee-brown-7167b9274/" target='_blank' ><div class="h-[205px] w-[28%] snap-center bg-[url('/Images/default-share.png')] bg-cover shadow-2xl hover:cursor-pointer hover:border-[3px] border-blue-400 bg-center mr-2 ml-2 inline-block rounded-[15px] "></div></a>
+              <a href="https://snhu.joinhandshake.com/stu/users/44118380" target='_blank'><div class="h-[205px] w-[28%] snap-center bg-[url('/Images/handshakeLogo.webp')] bg-cover shadow-2xl hover:cursor-pointer hover:border-[3px]  bg-center mr-2 ml-2 inline-block rounded-[15px] "></div></a>
+              <a href="https://github.com/KyleeMBrown" target='_blank'><div class="h-[205px] w-[28%] snap-center bg-[url('/Images/github-logo.png')] bg-cover bg-center mr-2 ml-2 inline-block rounded-[15px] shadow-2xl hover:cursor-pointer hover:border-[3px] border-gray-500  "></div></a>
+              <div class="h-[205px] w-[28%] snap-center mr-2 ml-2 inline-block rounded-[15px] shadow-2xl hover:cursor-pointer hover:border-[3px]  "></div>
       </CarouselComponent>
     
       
