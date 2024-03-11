@@ -28,7 +28,12 @@ function CarouselComponent({children}) {
                 <h1  class="text-[25px]  text-white text-center rotate-[270deg]"> ^ </h1>
             </div>
             <div class="w-full  h-full">
-            {children}
+              <a href="https://www.linkedin.com/in/kylee-brown-7167b9274/" target='_blank' ><div class="h-[205px] w-[28%] snap-center bg-[url('/Images/default-share.png')] bg-cover shadow-2xl hover:cursor-pointer hover:border-[3px] border-blue-400 bg-center mr-2 ml-2 inline-block rounded-[15px] "></div></a>
+              <a href="https://snhu.joinhandshake.com/stu/users/44118380" target='_blank'><div class="h-[205px] w-[28%] snap-center bg-[url('/Images/handshakeLogo.webp')] bg-cover shadow-2xl hover:cursor-pointer hover:border-[3px]  bg-center mr-2 ml-2 inline-block rounded-[15px] "></div></a>
+              <a href="https://github.com/KyleeMBrown" target='_blank'><div class="h-[205px] w-[28%] snap-center bg-[url('/Images/github-logo.png')] bg-cover bg-center mr-2 ml-2 inline-block rounded-[15px] shadow-2xl hover:cursor-pointer hover:border-[3px] border-gray-500  "></div></a>
+              <div class="h-[205px] w-[28%] snap-center mr-2 ml-2 inline-block rounded-[15px] shadow-2xl hover:cursor-pointer hover:border-[3px]  ">
+
+              </div>
             </div>
            
             <div onClick={handleLeft} class="absolute bottom-0 mr-8  bg-gradient-to-r from-black hover:to-black hover:cursor-pointer rounded-bl-[20px]  rounded-tl-[20px] w-[3%]">
