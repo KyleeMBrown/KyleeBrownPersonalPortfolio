@@ -169,7 +169,7 @@ function Projects() {
                   <p class="indent-3 mt-1">
                   I built this project in order to strengthen my javascript data structures and algorithms as well as iterations!
                   I combined my current two favorite things for this project: coding & Adventure Time!<br />
-                      
+                  <a href="https://themed-mem-game.netlify.app/" target='_blank' class="text-blue-200 underline">Link to Website Here</a>
                      
                   </p>
                 
