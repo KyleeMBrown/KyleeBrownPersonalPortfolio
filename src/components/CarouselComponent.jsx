@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 
 
-function CarouselComponent({children}) {
+function CarouselComponent(prop) {
     const carouselComp = useRef()
 
 
@@ -26,17 +26,14 @@ function CarouselComponent({children}) {
             <div onClick={handleLeft} class="flex  items-center  justify-center rotate-180 bg-gradient-to-r from-black hover:to-black hover:cursor-pointer rounded-bl-[20px]  rounded-tl-[20px] w-[3%]">
                 <h1  class="text-[25px]  text-white text-center rotate-[90deg]"> ^ </h1>
             </div>
-            <div ref={carouselComp}  class="w-full  h-full scroll-smooth  overflow-x-auto overflow-y-hidden p-0 whitespace-nowrap no-scrollbar snap-x  snap-mandatory">
-              {children}
+            <div ref={carouselComp}  class="w-full  h-full scroll-smooth  overflow-x-auto overflow-y-hidden  whitespace-nowrap no-scrollbar snap-x snap-mandatory">
+              {prop.children}
             </div>
            
             <div onClick={handleRight} class=" flex  items-center  justify-center bg-gradient-to-r from-black hover:to-black hover:cursor-pointer rounded-bl-[20px]  rounded-tl-[20px] w-[3%]">
                 <h1  class=" text-[25px]  text-white text-center rotate-[90deg]"> ^ </h1>
             </div>
-            
-           
-
-            
+        
         </div>
 
    
