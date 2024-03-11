@@ -43,7 +43,7 @@ function Projects() {
                         <p class="indent-3 mt-1">
                             I created this website because I wanted to showcase my coding skills in a creative, abstract way. I was also in need of a 
                             personal portfolio website to keep track of my work and progress throughout my career! This website is hosted on Netlify throgh a CI/CD systems. <br />
-                            Libraries Used: <span class=" text-orange-300">Tailwind, Framer Motion, React.JS</span> 
+                            Libraries Used: <span class=" text-orange-300">Tailwind, Framer Motion, React.JS</span> <br />
                         </p>
                       
                     </p>
