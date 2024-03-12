@@ -163,7 +163,7 @@ function Projects() {
                   <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-html-48.png" alt="HTML" class="inline" />
                         <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-javascript-48.png" alt="JS" class="inline" />
                         <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-css-48.png" alt="CSS" class="inline" />
-                        <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-react-24.png" alt="React" class="inline w-[48px]" />
+                       
                   </div>
                   <h1 class="ml-1 w-full mb-1">Project Summary:</h1> 
                   <p class="indent-3 mt-1">
