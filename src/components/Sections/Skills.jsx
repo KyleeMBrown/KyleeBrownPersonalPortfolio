@@ -53,7 +53,7 @@ function Skills() {
 
           <div class="w-[90px] ">
             <img src="/Icons/icons8-pandas-48.png" alt="CSS" class="w-[90px]" />
-            <h3 class="text-center text-white">Numpy</h3>
+            <h3 class="text-center text-white">Pandas</h3>
           </div>
 
           
