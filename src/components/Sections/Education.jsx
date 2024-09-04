@@ -19,9 +19,9 @@ function Education() {
             <div class="backdrop-blur-lg">I'm attending SNHU Online persuing my <span class="text-pink-300 font-bold"> BS in Computer Science with a concentration in Software Engineering</span>. I began attendance in 2022 and have an expected graduation date of 2026.
             <div class='text-left'>
               <br />Upcoming Courses: 
-                <li>Discrete Math</li>
-                <li>Intro to Scripting</li>
-                <br/>Current GPA: <p class=" text-green-500"> 3.48</p>
+                <li>Foundation in Application Development</li>
+                <li>Communication in STEM Professions</li>
+                <br/>Current GPA: <p class=" text-green-500"> 3.33</p>
             </div>
             
             </div>
