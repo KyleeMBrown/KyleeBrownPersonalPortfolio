@@ -84,7 +84,7 @@ function Projects() {
     <h1 class="ml-1 mb-1 ">Coding Languages:</h1>
         <div class="w-full flex items-center justify-evenly mb-1 mt-1">
               <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-javascript-48.png" alt="JS" class="inline" />
-              <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-mysql-48.png" alt="JS" class="inline" />
+              <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-mysql-50.png" alt="JS" class="inline" />
         </div>
         <h1 class="ml-1 w-full mb-1">Project Summary:</h1> 
         <p class="indent-3 mt-1">
