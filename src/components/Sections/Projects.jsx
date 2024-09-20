@@ -83,9 +83,8 @@ function Projects() {
     <p class='  p-2 leading-[22px] flex text-[14px] overflow-y-scroll h-[100px] color-scrollbar bg-black bg-opacity-[35%] hover:bg-opacity-[45%] hover:scale-[102%]  transition-all rounded-md text-left flex-wrap break-words  '>
     <h1 class="ml-1 mb-1 ">Coding Languages:</h1>
         <div class="w-full flex items-center justify-evenly mb-1 mt-1">
-        <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-html-48.png" alt="HTML" class="inline" />
               <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-javascript-48.png" alt="JS" class="inline" />
-              <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/png-transparent-mysql-php-database-javascript-ajax-carnifex-blue-text-logo.png" alt="JS" class="inline" />
+              <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-mysql-48.png" alt="JS" class="inline" />
         </div>
         <h1 class="ml-1 w-full mb-1">Project Summary:</h1> 
         <p class="indent-3 mt-1">
