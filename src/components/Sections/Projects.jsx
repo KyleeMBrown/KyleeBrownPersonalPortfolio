@@ -77,7 +77,7 @@ function Projects() {
               </div>,
 
 <div class="w-[400px]" >
-<a href="https://github.com/KyleeMBrown/CRUD-BLOG-API" target="_blank"><motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('/Images/gradient-network-connection-background_23-2148865393.avif')] bg-black bg-cover bg-top h-[210px] rounded-xl hover:cursor-pointer hover:drop-shadow-2xl "></motion.div></a>
+<a href="https://github.com/KyleeMBrown/CRUD-BLOG-API/blob/main/server.js" target="_blank"><motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('/Images/gradient-network-connection-background_23-2148865393.avif')] bg-black bg-cover bg-top h-[210px] rounded-xl hover:cursor-pointer hover:drop-shadow-2xl "></motion.div></a>
 <div class="text-white ">
     <h1 class= "ml-1 mt-2 pb-2 text-left text">CRUD API for Blog Applications</h1>
     <p class='  p-2 leading-[22px] flex text-[14px] overflow-y-scroll h-[100px] color-scrollbar bg-black bg-opacity-[35%] hover:bg-opacity-[45%] hover:scale-[102%]  transition-all rounded-md text-left flex-wrap break-words  '>
