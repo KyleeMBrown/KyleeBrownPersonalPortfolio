@@ -79,7 +79,7 @@ function Projects() {
 <div class="w-[400px]" >
 <a href="https://github.com/KyleeMBrown/CRUD-BLOG-API" target="_blank"><motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('/Images/github-logo.png')] bg-black bg-cover bg-top h-[210px] rounded-xl hover:cursor-pointer hover:drop-shadow-2xl "></motion.div></a>
 <div class="text-white ">
-    <h1 class= "ml-1 mt-2 pb-2 text-left text">CRUD API for BLOG APPLICATIONS</h1>
+    <h1 class= "ml-1 mt-2 pb-2 text-left text">CRUD API for Blog Applications</h1>
     <p class='  p-2 leading-[22px] flex text-[14px] overflow-y-scroll h-[100px] color-scrollbar bg-black bg-opacity-[35%] hover:bg-opacity-[45%] hover:scale-[102%]  transition-all rounded-md text-left flex-wrap break-words  '>
     <h1 class="ml-1 mb-1 ">Coding Languages:</h1>
         <div class="w-full flex items-center justify-evenly mb-1 mt-1">
