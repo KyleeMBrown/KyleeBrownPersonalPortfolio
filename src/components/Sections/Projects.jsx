@@ -14,7 +14,7 @@ function Projects() {
    
     ttlShadow="5px 5px 10px black"
     paragraph = {
-    <div class="text-center pb-2  text-white"> 
+    <div class="text-center pb-2 text-white"> 
         <div class="backdrop-blur-lg">Below are all of my personal projects with links to their github repositories. My projects are also displayed on my <span></span>  
         <a href="https://www.linkedin.com/in/kylee-brown-7167b9274/details/projects/" target="_blank" class="underline text-pink-300 hover:text-pink-400">LinkedIn</a> page! All 
         of these projects are personal and have no affiliation with my school. Valuable school related Projects will go onto the Education page.
@@ -26,27 +26,34 @@ function Projects() {
 
     rowOne={[
           <div class="w-[400px]" >
-                <a href="https://github.com/KyleeMBrown/PersonalPortfolio" target="_blank"><motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('/Images/PersonalPortScreenshot.png')] bg-white bg-cover bg-center h-[210px] rounded-xl hover:cursor-pointer hover:drop-shadow-2xl "></motion.div></a>
-                <div class="text-white ">
-                    <h1 class= "ml-1 mt-2 pb-2 text-left text">Personal Portfolio</h1>
-                    <p class='  p-2 leading-[22px] flex text-[14px] overflow-y-scroll h-[100px] color-scrollbar bg-black bg-opacity-[35%] hover:bg-opacity-[45%] hover:scale-[102%]  transition-all rounded-md text-left flex-wrap break-words  '>
-                    <h1 class="ml-1 mb-1 ">Coding Languages:</h1>
+                <a href="https://astrodatatool.netlify.app/" target="_blank"><motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('/Images/ADTscreenshot.png')] bg-white bg-cover bg-center h-[210px] rounded-xl hover:cursor-pointer hover:drop-shadow-2xl "></motion.div></a>
+                <div class="text-white  ">
+                    <h1 class= "ml-1 mt-2 pb-2 text-left text">Astronomical Data Tool (FullStack)</h1>
+                    
+
+                    <div class='  p-2 leading-[22px] flex text-[14px] overflow-y-scroll h-[100px] color-scrollbar bg-black bg-opacity-[35%] hover:bg-opacity-[45%] hover:scale-[102%]  transition-all rounded-md text-left flex-wrap break-words  '>
+                    
+                    
+                    <p class="ml-1 mb-1 "><p class="ml-1 mb-1 text-[12px]">Source Code: <a href="https://github.com/KyleeMBrown/ADT-Frontend" className="underline ml-2 mr-2">FrontEnd</a> <a href="https://github.com/austin-zickur/Astronomical-Data-Tool-Backend-ADT-" className="underline">BackEnd</a></p><br></br>Coding Languages:</p>
+                    
                         <div class="w-full flex items-center justify-evenly mb-1 mt-1">
-                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-html-48.png" alt="HTML" class="inline" />
-                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-javascript-48.png" alt="JS" class="inline" />
-                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-tailwind-css-48.png" alt="TW CSS" class="inline" />
-                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-framer-motion.webp" alt="Framer Motion" class="inline w-[48px]" />
                             <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-react-24.png" alt="React" class="inline w-[48px]" />
+                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-python-94 (1).png" alt="Python" class="inline w-[45px]" />
                            
                         </div>
                         <h1 class="ml-1 w-full mb-1">Project Summary:</h1> 
                         <p class="indent-3 mt-1">
-                            I created this website because I wanted to showcase my coding skills in a creative, abstract way. I was also in need of a 
-                            personal portfolio website to keep track of my work and progress throughout my career! This website is hosted on Netlify throgh CI/CD systems. <br />
-                            Libraries Used: <span class=" text-orange-300">Tailwind, Framer Motion, React.JS</span> <br />
+                        This program was created as a tool for astronomers to generate images from <a className="underline" href="https://fits.gsfc.nasa.gov/fits_primer.html">Fits</a> files they upload. 
+                        <br />
+                        <p className="text-red-300">Partner: <a className='underline text-white' href="https://www.linkedin.com/in/austin-zickur-8b13a8292/">Austin Zickur</a></p>
+                        <br/>
+                            Libraries Used: <span class=" text-pink-300">Flask, Astropy, Numpy, ReactJS</span> <br />
+                            <a className="underline text-blue-400" href="https://astrodatatool.netlify.app/">Go to Website</a>
+                            <br/>
+                    
                         </p>
                       
-                    </p>
+                    </div>
                 </div>
                 
           </div>,
@@ -102,8 +109,33 @@ function Projects() {
     ]}
     row2height={'380px'}
     rowTwo={[
-
         <div class="w-[400px]" >
+                <a href="https://github.com/KyleeMBrown/PersonalPortfolio" target="_blank"><motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('/Images/PersonalPortScreenshot.png')] bg-white bg-cover bg-center h-[210px] rounded-xl hover:cursor-pointer hover:drop-shadow-2xl "></motion.div></a>
+                <div class="text-white ">
+                    <h1 class= "ml-1 mt-2 pb-2 text-left text">Personal Portfolio</h1>
+                    <p class='  p-2 leading-[22px] flex text-[14px] overflow-y-scroll h-[100px] color-scrollbar bg-black bg-opacity-[35%] hover:bg-opacity-[45%] hover:scale-[102%]  transition-all rounded-md text-left flex-wrap break-words  '>
+                    <h1 class="ml-1 mb-1 ">Coding Languages:</h1>
+                        <div class="w-full flex items-center justify-evenly mb-1 mt-1">
+                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-html-48.png" alt="HTML" class="inline" />
+                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-javascript-48.png" alt="JS" class="inline" />
+                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-tailwind-css-48.png" alt="TW CSS" class="inline" />
+                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-framer-motion.webp" alt="Framer Motion" class="inline w-[48px]" />
+                            <motion.img whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} src="/Icons/icons8-react-24.png" alt="React" class="inline w-[48px]" />
+                           
+                        </div>
+                        <h1 class="ml-1 w-full mb-1">Project Summary:</h1> 
+                        <p class="indent-3 mt-1">
+                            I created this website because I wanted to showcase my coding skills in a creative, abstract way. I was also in need of a 
+                            personal portfolio website to keep track of my work and progress throughout my career! This website is hosted on Netlify throgh CI/CD systems. <br />
+                            Libraries Used: <span class=" text-orange-300">Tailwind, Framer Motion, React.JS</span> <br />
+                        </p>
+                      
+                    </p>
+                </div>
+                
+          </div>,
+
+        <div class="w-[400px] max-[760px]:mt-[50em]" >
         <a href="https://github.com/TechFataleFreelance/KB-s-Kustomz" target="_blank"><motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('/Images/KBsKustomz.png')] bg-black bg-contain bg-no-repeat  bg-top h-[210px] rounded-xl hover:cursor-pointer hover:drop-shadow-2xl "></motion.div></a>
         <div class="text-white ">
             <h1 class= "ml-1 mt-2 pb-2 text-left text">KB's Kustom'z Car Service Website</h1>
@@ -153,7 +185,8 @@ function Projects() {
             </p>
         </div>
         
-         </div>
+         </div>,
+         <br/>
         
         /*<div class="w-[400px]" >
         <a href="https://github.com/KyleeMBrown/Austin-Zickur-PErsonal-Portfolio" target="_blank"><motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('/Images/AustinZpersonalPort.png')] bg-black bg-cover bg-top h-[210px] rounded-xl hover:cursor-pointer hover:drop-shadow-2xl "></motion.div></a>
@@ -179,7 +212,7 @@ function Projects() {
         </div>
         
     </div>*/,
-          <div class="w-[400px]" >
+          /*<div class="w-[400px]" >
           <a href="https://github.com/KyleeMBrown/Memory-Game" target="_blank"><motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('/Images/MemGameproje.png')]  bg-cover bg-center  h-[210px] rounded-xl hover:cursor-pointer hover:drop-shadow-2xl "></motion.div></a>
           <div class="text-white ">
               <h1 class= "ml-1 mt-2 pb-2 text-left text">Fully Responsive Memory Game</h1>
@@ -202,7 +235,7 @@ function Projects() {
               </p>
           </div>
           
-           </div>
+           </div>*/
     ]}
     row3height={'380px'}
     rowThree={[
@@ -258,7 +291,8 @@ function Projects() {
           </div>
           
            </div>,
-          <div style={{visibility:'hidden'}} class="w-[400px]" ></div>
+          <div style={{visibility:'hidden'}} class="w-[400px]" ></div>,
+          
     ]}
     />
 </div>

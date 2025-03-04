@@ -8,12 +8,12 @@ function About() {
   return (
     <>
       
-      <div id="About" class=" w-full ">
+      <div id="About" class=" w-full">
         <MoviePageLayout 
         title='Welcome to the About Page!'
         ttlSize='75px'
         ttlFont='sweet'
-        paragraph = {[      <div class="text-center pb-2  text-white bg-green- "> <div class="backdrop-blur-lg">Hi! My name is Kylee Brown, and I am a first generation student majoring in Computer Science.
+        paragraph = {[      <div class="text-center pb-2  text-white  bg-green- "> <div class="backdrop-blur-lg">Hi! My name is Kylee Brown, and I am a first generation student majoring in Computer Science.
         I was born in Haiti and was adopted by a loving family in Illinois. When I am passionate about something in my life I put my everything into  it nothing less.
         I built and designed this portfolio website in the likes of a streaming platform to showcase my UI skills while also integrating a longtime hobbie of mine, binge watching.
          I'm excited to see how much I can grow and where my career takes me </div><br />Thanks for stopping by! <br />~Kylee </div>]}
@@ -21,7 +21,7 @@ function About() {
         bgUrl="/Images/Cherry.jpeg"
 
         rowOne={[
-            <div class="w-[28%]">
+            <div class="w-[28%] max-[760px]:w-full">
             <motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('/Images/Computerdesk.jpg')] bg-cover bg-center h-[210px] rounded-xl hover:cursor-default hover:drop-shadow-2xl "></motion.div>
             <div class="text-white ">
               <h1 class= "ml-1 mt-2 pb-2 text-left text">What My Future Looks Like</h1>
@@ -33,7 +33,7 @@ function About() {
             </div>
           ,
           
-          <div class="w-[28%]">
+          <div class="w-[28%] max-[760px]:w-full">
           <motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('/Images/Logic.jpg')] bg-cover bg-center h-[210px] rounded-xl hover:cursor-default hover:drop-shadow-2xl "></motion.div>
           <div class="text-white ">
             <h1 class= "ml-1 mt-2 pb-2 text-left text">Why I Chose to Persue a Career in Tech</h1>
@@ -44,7 +44,7 @@ function About() {
           </div>
           
           </div>,
-           <div class="w-[28%]">
+           <div class="w-[28%] max-[760px]:w-full">
            <motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('/Images/Goals.jpg')] bg-cover bg-center h-[210px] rounded-xl hover:cursor-default hover:drop-shadow-2xl "></motion.div>
            <div class="text-white ">
              <h1 class= "ml-1 mt-2 pb-2 text-left">My Career Goals</h1>
@@ -56,7 +56,7 @@ function About() {
                
             </p>
            </div>
-           
+           <br/>
            </div>
       ]}
     

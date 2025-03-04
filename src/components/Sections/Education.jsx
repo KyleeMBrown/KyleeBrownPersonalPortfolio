@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 function Education() {
   return(
     <>
-    <div  class="w-full ">
+    <div  class="w-full">
         <MoviePageLayout
         bgUrl="/Images/Books.jpeg"
 
@@ -29,7 +29,7 @@ function Education() {
         }
 
         rowOne={[
-          <div class="w-[28%]">
+          <div class="w-[28%] max-[760px]:w-full">
             <motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('/Images/snhu_logo_new.png')] bg-white bg-cover bg-center h-[210px] rounded-xl hover:cursor-default hover:drop-shadow-2xl "></motion.div>
             <div class="text-white ">
               <h1 class= "ml-1 mt-2 pb-2 text-left text">Why I chose SNHU Online</h1>
@@ -39,7 +39,7 @@ function Education() {
             </div>
             
             </div>,
-            <div class="w-[28%]">
+            <div class="w-[28%] max-[760px]:w-full">
                 <motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('/Images/DreamBig.jpeg')]  bg-cover bg-center h-[210px] rounded-xl hover:cursor-default hover:drop-shadow-2xl "></motion.div>
                     <div class="text-white ">
                       <h1 class= "ml-1 mt-2 pb-2 text-left text">SNHU Achievements</h1>

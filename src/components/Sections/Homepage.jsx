@@ -55,7 +55,7 @@ const carousel = useRef()
         </div>
     </motion.div>
     <div class=" flex items-center justify-center bg-blue-  w-full ">
-      <div class="flex justify-center text-white items-center gap-6">
+      <div class="flex max-[760px]:flex-col justify-center text-white items-center gap-6">
      <a href="/Images/Resume-v45.pdf" target='_blank'><motion.div whileHover={{ scale:1.08, borderColor: 'white'}} transition={{duration:0.4, type:"ease"}} class="text-[25px] hover:cursor-pointer w-[255px] hover:border-[5px] rounded-[20px] h-[160px]  flex items-center justify-center bg-pink-800 hover:bg-pink-200 hover:text-pink-800 transition-colors drop-shadow-2xl">
          RESUME
         </motion.div></a>
@@ -83,8 +83,9 @@ const carousel = useRef()
               <a href="https://github.com/KyleeMBrown" target='_blank'><div class="h-[205px] w-[28%] snap-center bg-[url('/Images/github-logo.png')] bg-cover bg-center mr-2 ml-2 inline-block rounded-[15px] shadow-2xl hover:cursor-pointer hover:border-[3px] border-gray-500  "></div></a>
               <div class="h-[205px] w-[28%] snap-center mr-2 ml-2 inline-block rounded-[15px] shadow-2xl hover:cursor-pointer hover:border-[3px]  "></div>
       </CarouselComponent>
-      </div>
       
+      </div>
+      <br></br>
 </div>
     
     
