@@ -20,7 +20,6 @@ function Education() {
             <div class='text-left'>
               <br />Upcoming Courses: 
                 <li>Software Development Lifecycle</li>
-                <li>Programming Languages</li>
                 <br/>Current GPA: <p class=" text-green-500"> 3.39</p>
             </div>
             
