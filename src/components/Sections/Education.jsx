@@ -28,16 +28,16 @@ function Education() {
         }
 
         rowOne={[
-          <a className="w-full"href="https://github.com/KyleeMBrown/CornerGrocerProgram?tab=readme-ov-file"><div class="w-[28%] max-[760px]:w-full">
-          <motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('/Images/CornerGrocerProj.png')] bg-white bg-cover bg-center h-[210px] rounded-xl hover:cursor-default hover:drop-shadow-2xl "></motion.div>
+         <div class="w-[28%] max-[760px]:w-full ">
+           <a className="w-full h-full cursor-pointer"href="https://github.com/KyleeMBrown/CornerGrocerProgram?tab=readme-ov-file"><motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('/Images/CornerGrocerProj.png')] cursor-pointer bg-white bg-cover bg-center h-[210px] rounded-xl hover:cursor-default hover:drop-shadow-2xl "></motion.div></a>
           <div class="text-white ">
-            <h1 class= "ml-1 mt-2 pb-2 text-left text">OOP Project: Corner Grocer</h1>
+            <h1 class= "ml-1 mt-2 pb-2 text-left text"><span className="text-yellow-300">C++</span> OOP Project: Corner Grocer</h1>
             <p class='  p-1 leading-[22px] flex items-center text-[14px] overflow-y-scroll h-[100px] no-scrollbar bg-black bg-opacity-[35%] hover:bg-opacity-[45%] hover:scale-[102%]  transition-all rounded-md text-center flex-wrap break-words  '>
-              Attending class online was the best choice I could have made for my academic career financially and mentally. The online environment has taught me to be more of an independent learner which is a crucial skill in
-              Computer Science.   </p>
+            This is a project I completed during my Object Oriented Programmmng course while persuing my Bachelors in Computer Science with a concentration in Software Engineering at Southern New Hampshire University
+            <br></br><a href="https://github.com/user-attachments/files/19079179/Project.3.Kylee.Brown.1.pdf">Summary of Project</a>  </p>
           </div>
           
-          </div></a>,
+          </div>,
           <div class="w-[28%] max-[760px]:w-full">
             <motion.div whileHover={{scale:1.03}} transition={{duration:0.5, type:'spring'}} class="w-[400px] bg-[url('/Images/snhu_logo_new.png')] bg-white bg-cover bg-center h-[210px] rounded-xl hover:cursor-default hover:drop-shadow-2xl "></motion.div>
             <div class="text-white ">
